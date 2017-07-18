@@ -1,0 +1,7 @@
+$ gnome-open file2open.xxx  / * open any file from the terminal */
+
+$ man -k process  /* to know about the unknown command */
+
+$ echo $?    /* return the status of code from the last run. 0 means no error happend, other values represent some kind of unusal condition. */
+
+

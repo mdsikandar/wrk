@@ -1,0 +1,4 @@
+
+:%s/\s\+$//  /* for removing space and trailing space */
+
+:gg=G     /* for proper indentation */

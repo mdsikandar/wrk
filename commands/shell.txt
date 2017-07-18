@@ -1,0 +1,13 @@
+$ ls ? /* will show all files whose name are 1 character long */
+
+$ firefox www.google.com& /* open the url from terminal */
+
+$ gnome-open filname   /* open that file from the default app */
+
+$ firefox&    /* to open the app from the terminal */
+
+$ cat etc/shells   /* to find the available shells system */
+
+$ echo $SHELL    /* to find the current shell in system */
+
+$ ls /bin/[a-c]*   /* to list with wild card */

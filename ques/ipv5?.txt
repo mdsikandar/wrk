@@ -1,0 +1,8 @@
+Why Ipv5 is not present or IpvX will come?
+
+
+
+ip5 came for the exprimenting real time streaming protoclbut to avoid confusion with ipv5 they name ipv6.
+
+
+Ipv6 is sufficient for all needs. so may be there is no new requriment but there is something work on ip version 9
