@@ -1,0 +1,39 @@
+parts and working of hub
+          -Hub is an layer 1 device and it connect multiple device using physical layer
+		Hubs are layer 1 devices,Hubs are just splitters. It simply receives frames in the ingress
+	         port and sends it out to all other ports. It knows nothing about MAC address.
+          -Physical layer is twisted pair cable,half duplex mode
+          -Types of hub - Active hub - Repeaters
+                         - Passive hub -No modifications on packets
+           -it uses carrier sense multiple access with collision domain (CSMA/CD)
+    -RJ 45 or 8P8C coupler
+           -RJ-Registered jack – it used in telepahone networks
+           -8P8C- 8 pin and 8 contact – All the pins gapped with 1mm apart
+           -it has voltage drop
+    -Switch
+           -it is an layer 2 device and it store MAC addresss of all the device
+           -full duplex mode
+    -Bridge
+           -it works on data link layer and it connect one network to another with same  protocol
+    -Router
+            -it is an layer 3 device and it stores ip address of devices
+    -modes of operation on networking
+            -AP mode - Access point
+            -Router mode
+            -Wireless mode distribution system - points to MAC address of the device
+    -Difference between modem,AP
+            -Modem is used to transrecive the datas
+            -Access point is used to create a private network
+    -The path is
+             Internet->Modem->Router->Access point
+    -FDB table - stores the MAC address of the device
+    -iptables
+             -It is used to accept,drop and reject the input and output from the user
+    -Packet mangling
+             -change the ip layer information in packets and it perform using NAT operation
+             -The process consists of
+                   -prerouting
+                   -Input
+                   -forward
+                   -output
+                   -postrouting
