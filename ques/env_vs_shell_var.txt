@@ -1,0 +1,10 @@
+# Difference between enviromental variables and shell variables
+
+Enviromental variables are variables that are defined for the current shell
+    and are inherited by any child shells or processes. Enviromental variabl    es are used to
+    pass information into process that are released from the shell
+
+
+Shell variables are variable that are contained exclusively within the shell
+    in which they were set or defined. They are often used to keep track of 
+    ephemeral data, like the current working directory.
