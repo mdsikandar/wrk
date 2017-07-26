@@ -1,0 +1,36 @@
+#defination of enum and uses of enum and format
+
+defination : Enumeration (enum) is a user defined data type in C.
+    It is mainly used to assign name to integral constants.
+    The names make a program to easy to read and maintain.
+
+
+Advantage of enum:
+    the advantage of enum over macro :
+    a) Enums follow scope rules.
+    b) Enums variable are automatically assigned. Following is simpler
+
+    example:
+    enum flag { constant1, constant2... }
+
+
+    example 2:
+     enum week{Mon, Tue, Wed,..., Sun}
+     int main ()
+     {
+         enum week day;
+         day = Wed;
+         printf("%d", day);
+         return 0;
+    }
+    In the above example, we declared “day” as the variable and
+    the value of “Wed” is allocated to day, which is 2.
+    So as a result, 2 is printed.
+
+# All enum constants must be unique in their scope .
+    example:
+    enum state {working, failed}
+    enum result {failed, passed}
+    int main() {return 0;}
+
+    / compilation error: failed has previous declaration
