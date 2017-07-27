@@ -31,6 +31,7 @@ void bubble_sort (int arr[], int size)
     bool swapped;
     for ( loop1 = 0; loop1 < size - 1; loop1++) {
         swapped = false;
+        /* largest element will go at the end */
         for ( loop2 =0; loop2 < (size -loop1 -1); loop2++) {
             if (arr[loop2] > arr[loop2 + 1]) {
                 swap (&arr[loop2], &arr[loop2 + 1]);
